@@ -12,7 +12,7 @@ import dataprocessor.interfaces.IPublishStrategy;
 import dataprocessor.publish.strategy.InstantPublishStrategy;
 
 /**
- * @author 527395
+ * @author Sanjeev S. [527395]
  */
 public class DataProcessor
 {

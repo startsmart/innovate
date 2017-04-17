@@ -1,4 +1,4 @@
-package error.classifier.datamodel;
+package error.classifier.data.impl;
 
 import java.util.Calendar;
 
@@ -9,6 +9,9 @@ import dataprocessor.datamodel.annotations.InstanceAttribute;
 import dataprocessor.datamodel.annotations.InstanceTime;
 import dataprocessor.interfaces.IDataModel;
 
+/**
+ *@author Sanjeev S. [527395]
+ */
 public class WebScrabDataModel implements IDataModel
 {
 	/**

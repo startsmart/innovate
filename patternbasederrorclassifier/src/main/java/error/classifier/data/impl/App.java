@@ -1,7 +1,7 @@
 /**
  *
  */
-package error.classifier.datamodel;
+package error.classifier.data.impl;
 
 
 /**

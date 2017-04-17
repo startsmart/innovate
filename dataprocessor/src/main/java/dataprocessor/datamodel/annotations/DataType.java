@@ -4,7 +4,7 @@
 package dataprocessor.datamodel.annotations;
 
 /**
- * @author 527395
+ * @author Sanjeev S. [527395]
  */
 public enum DataType
 {

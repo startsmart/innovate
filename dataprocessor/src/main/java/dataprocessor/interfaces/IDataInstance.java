@@ -1,10 +1,7 @@
-/**
- *
- */
 package dataprocessor.interfaces;
 
 /**
- * @author 527395
+ * @author Sanjeev S. [527395]
  */
 public interface IDataInstance
 {

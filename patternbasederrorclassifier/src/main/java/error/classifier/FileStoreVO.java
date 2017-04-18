@@ -5,25 +5,46 @@ package error.classifier;
  */
 public class FileStoreVO
 {
-	private String fileStorePath;
+	private String modelStorePath;
+	private String patternStorePath;
 	private String dataModelRecordPrefix;
 	private String patternRecordPrefix;
 	private String dataReadMarker;
+	private String dataModelExtension;
+	private String patternExtension;
 
 	/**
 	 * @return the fileStorePath
 	 */
-	public String getFileStorePath()
+	public String getModelStorePath()
 	{
-		return fileStorePath;
+		return modelStorePath;
 	}
 
 	/**
 	 * @param fileStorePath the fileStorePath to set
 	 */
-	public void setFileStorePath(String fileStorePath)
+	public void setModelStorePath(String modelStorePath)
 	{
-		this.fileStorePath = fileStorePath;
+		this.modelStorePath = modelStorePath;
+	}
+
+
+
+	/**
+	 * @return the patternStorePath
+	 */
+	public String getPatternStorePath()
+	{
+		return patternStorePath;
+	}
+
+	/**
+	 * @param patternStorePath the patternStorePath to set
+	 */
+	public void setPatternStorePath(String patternStorePath)
+	{
+		this.patternStorePath = patternStorePath;
 	}
 
 	/**
@@ -73,4 +94,38 @@ public class FileStoreVO
 	{
 		this.dataReadMarker = dataReadMarker;
 	}
+
+	/**
+	 * @return the dataModelExtension
+	 */
+	public String getDataModelExtension()
+	{
+		return dataModelExtension;
+	}
+
+	/**
+	 * @param dataModelExtension the dataModelExtension to set
+	 */
+	public void setDataModelExtension(String dataModelExtension)
+	{
+		this.dataModelExtension = dataModelExtension;
+	}
+
+	/**
+	 * @return the patternExtension
+	 */
+	public String getPatternExtension()
+	{
+		return patternExtension;
+	}
+
+	/**
+	 * @param patternExtension the patternExtension to set
+	 */
+	public void setPatternExtension(String patternExtension)
+	{
+		this.patternExtension = patternExtension;
+	}
+
+
 }

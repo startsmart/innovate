@@ -28,4 +28,5 @@ public abstract class Logger
     public abstract void warn(Object s, Throwable t);
     public abstract void debug(Object s);
     public abstract void debug(Object s, Throwable t);
+    public abstract String format(Object s);
 }

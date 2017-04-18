@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
+import loggerapi.Logger;
 import dataprocessor.exception.DataStoreException;
 import dataprocessor.interfaces.IDataModel;
 import dataprocessor.interfaces.IDataStore;
@@ -33,16 +34,17 @@ public class FileDataStore implements IDataStore<FileStoreVO>
 	@Override
 	public void persistModel(IDataModel model) throws DataStoreException
 	{
-
-		File record = new File(this.storeVO.getFileStorePath() + this.storeVO.getDataModelRecordPrefix() + System.currentTimeMillis());
+		File record = new File(this.storeVO.getModelStorePath() + File.separator + this.storeVO.getDataModelRecordPrefix() + System.currentTimeMillis() + this.storeVO.getDataModelExtension());
 		store(record, model);
+		Logger.getLogger().info("Persisting Data Model. Record " + record.getAbsolutePath());
 	}
 
 	@Override
 	public void persistPattern(IPattern pattern) throws DataStoreException
 	{
-		File record = new File(this.storeVO.getFileStorePath() + this.storeVO.getPatternRecordPrefix() + System.currentTimeMillis());
+		File record = new File(this.storeVO.getPatternStorePath() + File.separator +  this.storeVO.getPatternRecordPrefix() + System.currentTimeMillis() + this.storeVO.getPatternExtension());
 		store(record, pattern);
+		Logger.getLogger().info("Persisting Pattern. Record " + record.getAbsolutePath());
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
 import java.io.BufferedReader;
 import java.io.File;

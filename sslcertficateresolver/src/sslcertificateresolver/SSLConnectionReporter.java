@@ -1,4 +1,6 @@
-package com.intuit.cto.wi.sslcertificateresolver;
+package sslcertificateresolver;
+
+import loggerapi.Logger;
 
 /**
  * @author Sanjeev S. [527395]

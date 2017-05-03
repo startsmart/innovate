@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver;
+package sslcertificateresolver;
 
 import java.util.HashSet;
 import java.util.Set;

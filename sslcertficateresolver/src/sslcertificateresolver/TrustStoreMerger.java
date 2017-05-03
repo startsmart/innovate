@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver;
+package sslcertificateresolver;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import loggerapi.Logger;
 
 public final class TrustStoreMerger
 {

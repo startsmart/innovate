@@ -1,9 +1,10 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
 import java.io.IOException;
 import java.util.Properties;
 
-import com.intuit.cto.wi.sslcertificateresolver.Logger;
+import loggerapi.Logger;
+
 
 /**
  * @author Sanjeev S.[527395]

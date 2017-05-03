@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-import com.intuit.cto.wi.sslcertificateresolver.SCRReport;
+import sslcertificateresolver.SCRReport;
 
 /**
  * @author Sanjeev S. [527395]

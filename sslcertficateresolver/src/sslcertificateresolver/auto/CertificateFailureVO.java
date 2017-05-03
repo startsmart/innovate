@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
 /**
  * @author Sanjeev S.[527395]

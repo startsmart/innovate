@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import com.intuit.cto.wi.sslcertificateresolver.Logger;
-import com.intuit.cto.wi.sslcertificateresolver.SSLCertificateResolver;
+import loggerapi.Logger;
+import sslcertificateresolver.SSLCertificateResolver;
 
 
 /**

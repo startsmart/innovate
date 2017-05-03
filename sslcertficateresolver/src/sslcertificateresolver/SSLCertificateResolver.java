@@ -1,4 +1,4 @@
-package com.intuit.cto.wi.sslcertificateresolver;
+package sslcertificateresolver;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,6 +23,8 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
+
+import loggerapi.Logger;
 
 /**
  * @author Sanjeev S.[527395]

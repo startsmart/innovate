@@ -1,6 +1,6 @@
-package com.intuit.cto.wi.sslcertificateresolver.auto;
+package sslcertificateresolver.auto;
 
-import com.intuit.cto.wi.sslcertificateresolver.SCRReport;
+import sslcertificateresolver.SCRReport;
 
 /**
  * @author Sanjeev S. [527395]

@@ -1,8 +1,8 @@
-package com.intuit.cto.wi.sslcertificateresolver;
+package sslcertificateresolver;
 
 import java.util.Arrays;
 
-import com.intuit.cto.wi.sslcertificateresolver.auto.AutoSSLConnectionReporter;
+import sslcertificateresolver.auto.AutoSSLConnectionReporter;
 
 /**
  * @author Sanjeev S. [527395]

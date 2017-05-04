@@ -48,7 +48,7 @@ public class ConsoleUIContext implements ExecutionContext
     public void interactToUser()
     {
         String switchKey = (String) getData("switchKey");
-        if(switchKey == "-c" || !hasConfiguration())
+        if(switchKey != "-c" && hasConfiguration())
         {
             setDataFromStore();
         }
@@ -146,7 +146,7 @@ public class ConsoleUIContext implements ExecutionContext
             {
                 throw new RuntimeException("User Interrupted");
             }
-            else if(!userChoice.startsWith("C") || !userChoice.startsWith("c"))
+            else if(!(userChoice.startsWith("C") || userChoice.startsWith("c")))
             {
                 System.out.println("Invalid choice! Choosing \"Continue\"...");
             }

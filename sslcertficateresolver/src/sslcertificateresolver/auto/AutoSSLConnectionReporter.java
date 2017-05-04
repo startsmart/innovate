@@ -24,12 +24,12 @@ public class AutoSSLConnectionReporter
 
     public static void main(String[] args)
     {
-        String switchKey = "";//-h, -i
+        String switchKey = "-i";//-h, -i
         if (args.length >= 1)
         {
             switchKey = args[0];
         }
-        if("-h".equals(switchKey) || !"-c".equals(switchKey))
+        if("-h".equals(switchKey))
         {
             showHelp();
         }

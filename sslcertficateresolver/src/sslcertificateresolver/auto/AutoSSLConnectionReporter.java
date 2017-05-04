@@ -115,7 +115,7 @@ public class AutoSSLConnectionReporter
         str.append("Run with input csv. Example " + System.lineSeparator() + "java -jar sslcertificateresolver.jar AUTO -i csv");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("Run in default mode. Example " + System.lineSeparator() + "java -jar sslcertificateresolver.jar");
+        str.append("Run in default mode. Example " + System.lineSeparator() + "java -jar sslcertificateresolver.jar AUTO");
         Logger.getLogger().info(str);
 
 

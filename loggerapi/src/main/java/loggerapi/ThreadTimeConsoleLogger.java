@@ -3,6 +3,9 @@ package loggerapi;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @author Sanjeev S.
+ */
 public class ThreadTimeConsoleLogger extends ConsoleLogger
 {
 	private static final SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");

@@ -3,7 +3,7 @@ package dataprocessor.interfaces;
 import java.io.Serializable;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public interface IPattern extends Serializable
 {

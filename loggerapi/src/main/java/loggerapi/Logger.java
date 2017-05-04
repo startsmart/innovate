@@ -1,7 +1,7 @@
 package loggerapi;
 
 /**
- * @author Sanjeev S.[527395]
+ * @author Sanjeev S.
  */
 public abstract class Logger
 {

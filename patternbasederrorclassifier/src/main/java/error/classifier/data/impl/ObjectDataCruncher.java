@@ -6,6 +6,9 @@ import java.io.ObjectInputStream;
 
 import loggerapi.Logger;
 
+/**
+ * @author Sanjeev S.
+ */
 public class ObjectDataCruncher extends TextDataCruncher {
 
 	public ObjectDataCruncher(String name, String path,

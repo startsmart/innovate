@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * Marks getter methods of field that is a Instance occurrence time for a data modal.
  * Any data modal can have only one Instance time field
- * @author Sanjeev S.[527395]
+ * @author Sanjeev S.
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

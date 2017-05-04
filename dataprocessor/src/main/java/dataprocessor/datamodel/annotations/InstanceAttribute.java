@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * Marks getter methods of field in data modal which are attributes of an data instance.
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

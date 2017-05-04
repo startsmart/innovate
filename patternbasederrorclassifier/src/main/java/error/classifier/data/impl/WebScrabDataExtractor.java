@@ -17,7 +17,7 @@ import dataprocessor.interfaces.IDataInstance;
 import dataprocessor.interfaces.IDataModel;
 
 /**
- * @author 527395
+ * @author Sanjeev S.
  */
 public class WebScrabDataExtractor implements IDataExtractor
 {

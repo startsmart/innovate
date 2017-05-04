@@ -13,7 +13,7 @@ import dataprocessor.interfaces.IPublishStrategy;
  *
  * Note: This is not a scheduled publisher that publish data on a given interval. Instead it allows to publish data when check is
  * made in a given interval of time.
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class TimerPublishStrategy implements IPublishStrategy
 {

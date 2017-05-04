@@ -6,7 +6,7 @@ import java.util.Set;
 import javax.net.ssl.SSLException;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class SCRReport
 {

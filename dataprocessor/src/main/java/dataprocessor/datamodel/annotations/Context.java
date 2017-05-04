@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * Marks getter methods of field that forms context for a data model.
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

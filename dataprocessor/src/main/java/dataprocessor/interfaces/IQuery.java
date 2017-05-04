@@ -1,7 +1,7 @@
 package dataprocessor.interfaces;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 @FunctionalInterface
 public interface IQuery<T>

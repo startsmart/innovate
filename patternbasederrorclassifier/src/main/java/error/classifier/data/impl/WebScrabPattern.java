@@ -2,6 +2,9 @@ package error.classifier.data.impl;
 
 import dataprocessor.interfaces.IPattern;
 
+/**
+ * @author Sanjeev S.
+ */
 public class WebScrabPattern implements IPattern
 {
 	/**

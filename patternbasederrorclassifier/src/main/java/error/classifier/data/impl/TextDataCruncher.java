@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import loggerapi.Logger;
 
 /**
- * @author 527395
+ * @author Sanjeev S.
  */
 public class TextDataCruncher implements Runnable
 {

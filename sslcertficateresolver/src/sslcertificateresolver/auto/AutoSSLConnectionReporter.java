@@ -12,7 +12,7 @@ import sslcertificateresolver.SSLCertificateResolver;
 
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class AutoSSLConnectionReporter
 {

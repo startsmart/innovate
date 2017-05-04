@@ -2,6 +2,9 @@ package error.classifier.data.impl;
 
 import dataprocessor.interfaces.IDataInstance;
 
+/**
+ * @author Sanjeev S.
+ */
 public class WebScrabDataInstance implements IDataInstance
 {
 	private String data;

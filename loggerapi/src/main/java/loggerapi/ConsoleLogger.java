@@ -4,8 +4,7 @@
 package loggerapi;
 
 /**
- * @author 527395
- *
+ * @author Sanjeev S.
  */
 public class ConsoleLogger extends Logger
 {

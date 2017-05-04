@@ -6,7 +6,7 @@ import dataprocessor.interfaces.IDataModel;
 import dataprocessor.interfaces.IPublishStrategy;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class InstantPublishStrategy implements IPublishStrategy
 {

@@ -1,8 +1,7 @@
 package dataprocessor.exception;
 
 /**
- * @author 527395
- *
+ * @author Sanjeev S.
  */
 public class DataStoreException extends Exception
 {

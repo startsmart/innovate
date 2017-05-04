@@ -3,7 +3,7 @@ package sslcertificateresolver.auto;
 import java.util.Set;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public interface IInputReader
 {

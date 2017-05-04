@@ -1,7 +1,7 @@
 package error.classifier;
 
 /**
- * @author 527395
+ * @author Sanjeev S.
  */
 @FunctionalInterface
 public interface IDataListener<T>

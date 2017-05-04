@@ -16,6 +16,9 @@ import java.util.stream.Collectors;
 
 import loggerapi.Logger;
 
+/**
+ * @author Sanjeev S.
+ */
 public final class TrustStoreMerger
 {
     private static final String BEGIN_CERTIFICATE = "-----BEGIN CERTIFICATE-----";

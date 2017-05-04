@@ -1,7 +1,7 @@
 package sslcertificateresolver.auto;
 
 /**
- * @author Sanjeev S.[527395]
+ * @author Sanjeev S.
  */
 public interface ExecutionContext
 {

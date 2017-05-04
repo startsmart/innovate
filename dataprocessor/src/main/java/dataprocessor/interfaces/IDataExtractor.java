@@ -4,7 +4,7 @@ package dataprocessor.interfaces;
 import java.util.List;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 @FunctionalInterface
 public interface IDataExtractor

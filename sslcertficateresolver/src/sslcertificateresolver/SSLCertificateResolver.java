@@ -27,7 +27,7 @@ import javax.net.ssl.X509TrustManager;
 import loggerapi.Logger;
 
 /**
- * @author Sanjeev S.[527395]
+ * @author Sanjeev S.
  */
 public class SSLCertificateResolver
 {

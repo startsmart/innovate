@@ -10,7 +10,7 @@ import dataprocessor.datamodel.annotations.InstanceTime;
 import dataprocessor.interfaces.IDataModel;
 
 /**
- *@author Sanjeev S. [527395]
+ *@author Sanjeev S.
  */
 public class WebScrabDataModel implements IDataModel
 {

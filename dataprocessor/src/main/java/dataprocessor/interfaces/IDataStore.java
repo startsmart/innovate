@@ -2,6 +2,10 @@ package dataprocessor.interfaces;
 
 import dataprocessor.exception.DataStoreException;
 
+/**
+ * @author Sanjeev S.
+ * @param <T> - Type of the DataStoreDetailsVO
+ */
 public interface IDataStore<T>
 {
 	public T getDataStoreDetailsVO();

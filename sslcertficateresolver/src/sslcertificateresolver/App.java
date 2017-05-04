@@ -6,7 +6,7 @@ import loggerapi.Logger;
 import sslcertificateresolver.auto.AutoSSLConnectionReporter;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class App
 {

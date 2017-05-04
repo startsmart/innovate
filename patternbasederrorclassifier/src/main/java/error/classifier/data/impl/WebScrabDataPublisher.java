@@ -9,7 +9,7 @@ import dataprocessor.interfaces.IDataPublisher;
 import error.classifier.IDataListener;
 
 /**
- * @author Sanjeev S. [527395]
+ * @author Sanjeev S.
  */
 public class WebScrabDataPublisher implements IDataPublisher
 {

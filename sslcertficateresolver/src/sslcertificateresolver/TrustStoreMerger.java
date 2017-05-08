@@ -23,7 +23,7 @@ public final class TrustStoreMerger
 {
     private static final String BEGIN_CERTIFICATE = "-----BEGIN CERTIFICATE-----";
     private static final String END_CERT = "-----END CERTIFICATE-----";
-    private static final String VERSION = "v1.0.0-Merge";
+    private static final String VERSION = "1.0.0-MERGE";
 
     private TrustStoreMerger()
     {
@@ -54,13 +54,10 @@ public final class TrustStoreMerger
     private static void showHelp()
     {
         StringBuilder str = new StringBuilder();
-        str.append("truststoremerger v" + VERSION + " USAGE");
+        str.append("sslcertificateresolver v" + VERSION + " MERGE USAGE");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("java -jar sslcertificateresolver.jar [mode] [input] [trust_store_path] [trust_store_pass_phrase]");
-        str.append(System.lineSeparator());
-        str.append(System.lineSeparator());
-        str.append("[mode] - Mode inwhich the tool to run - MANUAL, AUTO, MERGE");
+        str.append("java -jar sslcertificateresolver.jar MERGE [input] [trust_store_path] [trust_store_pass_phrase]");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
         str.append("[input] - input file containing certificate data");
@@ -72,10 +69,10 @@ public final class TrustStoreMerger
         str.append("[trust_store_pass_phrase] - Passphrase for the trust store, this is optional and if not given java's default passphrease will be considered.");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("EXAMPLE 1" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MERGE D:\\scripts\\ngwijwbtrust\\sampleinput.txt D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust trustpass");
+        str.append("EXAMPLE 1" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MERGE \"D:\\scripts\\ngwijwbtrust\\sampleinput.txt\" \"D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust\" \"trustpass\"");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("EXAMPLE 2" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MERGE D:\\scripts\\ngwijwbtrust\\sampleinput.txt D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust");
+        str.append("EXAMPLE 2" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MERGE \"D:\\scripts\\ngwijwbtrust\\sampleinput.txt\" \"D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust\"");
         Logger.getLogger().info(str);
     }
 

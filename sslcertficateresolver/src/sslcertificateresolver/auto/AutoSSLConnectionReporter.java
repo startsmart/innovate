@@ -16,7 +16,7 @@ import sslcertificateresolver.SSLCertificateResolver;
  */
 public class AutoSSLConnectionReporter
 {
-    private static final String VERSION = "1.0.0-Auto";
+    private static final String VERSION = "1.0.0-AUTO";
 
     private AutoSSLConnectionReporter()
     {
@@ -94,10 +94,7 @@ public class AutoSSLConnectionReporter
         str.append("sslcertificateresolver v" + VERSION + " USAGE");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("java -jar sslcertificateresolver.jar [mode] [option] [input]");
-        str.append(System.lineSeparator());
-        str.append(System.lineSeparator());
-        str.append("[mode] - Mode in which the tool to run - MANUAL, AUTO, MERGE");
+        str.append("java -jar sslcertificateresolver.jar AUTO [option] [input]");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
         str.append("[option] ");

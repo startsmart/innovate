@@ -7,7 +7,7 @@ import loggerapi.Logger;
  */
 public class SSLConnectionReporter
 {
-    private static final String VERSION = "v1.0.0-Manual";
+    private static final String VERSION = "v1.0.0-MANUAL";
 
     private SSLConnectionReporter()
     {
@@ -42,10 +42,7 @@ public class SSLConnectionReporter
         str.append("sslcertificateresolver v" + VERSION + " USAGE");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("java -jar sslcertificateresolver.jar [mode] [URL] [trust_store_path] [trust_store_pass_phrase]");
-        str.append(System.lineSeparator());
-        str.append(System.lineSeparator());
-        str.append("[mode] - Mode inwhich the tool to run - MANUAL, AUTO, MERGE");
+        str.append("java -jar sslcertificateresolver.jar MANUAL [URL] [trust_store_path] [trust_store_pass_phrase]");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
         str.append("[URL] - URL for which SSL certificates to be added | URL causing certificate issue");
@@ -57,10 +54,10 @@ public class SSLConnectionReporter
         str.append("[trust_store_pass_phrase] - Passphrase for the trust store, this is optional and if not given java's default passphrease will be considered.");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("EXAMPLE 1" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MANUAL https://sample.com D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust trustpass");
+        str.append("EXAMPLE 1" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MANUAL \"https://sample.com\" \"D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust\" \"trustpass\"");
         str.append(System.lineSeparator());
         str.append(System.lineSeparator());
-        str.append("EXAMPLE 2" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MANUAL https://sample.com D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust");
+        str.append("EXAMPLE 2" + System.lineSeparator() + "java -jar sslcertificateresolver.jar MANUAL \"https://sample.com\" \"D:\\scripts\\ngwijwbtrust\\src\\main\\resources\\jwb.trust\"");
         Logger.getLogger().info(str);
     }
 }
